@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.one, .two, .three, .four, .five {
+    padding: 0px 128px;
+}
+
+.one, .five {
+    background: #1F2937;
+}
+
+.one {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 92px;
+
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 78px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.text-small, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-large {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.info {
+    display: flex;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: gray;
+    flex: 1;
+    color: white;
+}
+
+button {
+    background: #3882F6;
+    padding: 8px 24px;
+    border-radius: 8px;
+    margin: 0;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 108px;
+}
